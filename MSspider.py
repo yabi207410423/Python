@@ -4,7 +4,7 @@
 # In[17]:
 
 
-import bs4,requests,csv
+import bs4,requests,csv,pandas as pd
 url="https://gamewith.tw/monsterstrike/article/show/85531"
 response =requests.get(url)
 soup=bs4.BeautifulSoup(response.text,"lxml")
